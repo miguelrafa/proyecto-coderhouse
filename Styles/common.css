@@ -24,9 +24,6 @@ body {
     margin: 0;
     padding: 0;
     margin-top: 10px;
-    font-family: "Mulish", sans-serif;
-    font-weight: bold;
-    font-size: 16px;
 }
 
 .menuPrincipal a {
@@ -64,16 +61,7 @@ body {
     grid-column-start: 5;
 }
 
-.headerLeft p {
-    margin-top: 5px;
-    margin-bottom: 30px;
-    color: black;
-    font-family: "Mulish", sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 15px;
-    margin-left: 150px;
-}
+
 
 .headerRight {
     float: right;
