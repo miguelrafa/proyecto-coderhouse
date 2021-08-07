@@ -1,0 +1,45 @@
+* {
+    Margin:0;
+    padding:0;
+ }
+ 
+.tituloPrincipal {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    text-shadow: 2px 2px 5px blue;
+    transform: skewY(-25deg);
+}
+
+.imagenNovidades {
+    width: 350px; height: 500px;
+   transition: all 1s;       
+}
+.imagenNovidades:hover {
+   height: 650px; width: 500px;
+   padding: 20px;
+   background-color: blue;
+
+}
+
+.flexSectionNovedades {
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+.novedades {
+    background-color: aliceblue;
+    width: 40%;
+}

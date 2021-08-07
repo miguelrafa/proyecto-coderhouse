@@ -1,0 +1,52 @@
+* {
+    Margin:0;
+    padding:0;
+ }
+
+.tituloPrincipal {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: 50px;
+}
+
+.contactForm {
+    font-family: "Mulish", sans-serif;
+    background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
+   
+    
+}
+
+.contactForm form {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+   
+}
+
+.legendForm {
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.labelForm {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.inputForm {
+    width: 50%;
+    
+}
+
+.buttonContato {
+    padding: 10px 24px;
+    font-family: "Mulish", sans-serif;
+    background-color: lightblue;
+}
+
+.textAreaContacto {
+    text-align: left;
+    margin-left: 10px;
+    resize: none;
+}

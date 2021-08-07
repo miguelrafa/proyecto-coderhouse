@@ -1,0 +1,107 @@
+* {
+    Margin:0;
+    padding:0;
+ }
+ 
+
+
+
+/*Imagen Inicio*/
+
+.imagenInicio {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/*Seccion Inicio FLEXBOX*/
+
+.flexSectionInicio {
+    display: flex;
+    height: auto;
+    align-items: baseline;
+}
+
+
+/*Ofertas de la semana*/
+
+
+.imagenOferta {
+    width: 350px; height: 500px;
+   transition: all 1s;       
+}
+.imagenOferta:hover {
+   height: 650px; width: 500px;
+   padding: 20px;
+   background-color: blue;
+
+}
+
+
+
+.ofertas {
+    background-color: aliceblue;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    font-family: "Mulish", sans-serif;
+}
+
+table, th, td {
+    padding: 3px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 30px;
+    text-shadow: 2px 2px 5px blue;
+
+}
+
+h2 {
+    background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue );
+    width: 100%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Mulish", sans-serif;
+    text-shadow: 2px 2px 5px blue;
+  
+}
+
+/*Boton Compra GRID*/
+
+.buttonCompraGrid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.buttonCompra {
+    grid-column-start: 3;
+    padding: 10px 24px;
+    font-family: "Mulish", sans-serif;
+    background-color: lightblue;
+}
+
+
+/*Logo Whatsapp*/
+
+.logoWhatsapp {
+    width: 6%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

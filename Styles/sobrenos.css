@@ -1,0 +1,48 @@
+* {
+    Margin:0;
+    padding:0;
+ }
+ 
+.tituloPrincipal {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: 50px;
+}
+
+.p1 {
+    font-family: "Mulish", sans-serif;
+    margin: 70px 50px 70px;    
+}
+
+.h2S {
+    background-image: linear-gradient(to right, blue, lightgray, aliceblue );
+    font-family: "Mulish", sans-serif;
+    text-align: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.imagenSobreNos {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+.flexSectionSobreNos {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 140px;
+    margin-top: 50px;
+    
+}
+
+.sobreNos {
+    background-color: aliceblue;
+    width: 40%;
+}
