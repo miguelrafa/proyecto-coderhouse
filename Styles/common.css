@@ -9,6 +9,15 @@ body {
     background-color: aliceblue;
 }
 
+/*Menu Principal NAV BAR*/
+
+.navimg {
+    background-image: url(https://images.unsplash.com/photo-1619166719123-471cee9ce91e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    min-height: 70px;
+}
+
+
+
 /*Menu Principal Header*/
 
 
@@ -20,10 +29,14 @@ body {
 }
 
 .menuPrincipal {
+    
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 5px;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .menuPrincipal a {
@@ -36,6 +49,7 @@ body {
     text-decoration: none;
     padding: 8px 16px;
     color: white;
+    border-radius: 8px;
 }
 .menuPrincipal a:hover {
     color: black;
@@ -43,28 +57,43 @@ body {
 
 .menu1 {
     grid-column-start: 1;
+    opacity: 0.8;
 }
 
 .menu2 {
     grid-column-start: 2;
+    opacity: 0.8;
 }
 
 .menu3 {
     grid-column-start: 3;
+    opacity: 0.8;
 }
 
 .menu4 {
     grid-column-start: 4;
+    opacity: 0.8;
 }
 
 .menu5 {
     grid-column-start: 5;
+    opacity: 0.8;
 }
 
-
+.headerLeft p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 150px;
+}
 
 .headerRight {
     float: right;
+    margin-top: 10px;
     margin-right: 100px;
     width: 150px;
 }
@@ -76,6 +105,16 @@ body {
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.tituloPrincipal2 {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
     text-shadow: 2px 2px 5px blue;
 }
 
@@ -99,6 +138,7 @@ body {
     padding-top: 15px;
     padding-left: 30px;
     padding-bottom: 15px;
+    margin-top: 30px;
 }
 
 .footerSocial {

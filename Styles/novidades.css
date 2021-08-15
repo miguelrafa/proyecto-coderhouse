@@ -3,11 +3,7 @@
     padding:0;
  }
  
-.tituloPrincipal {
-    color: black;
-    font-family: "Mulish", sans-serif;
-    font-size: 50px;
-}
+
 
 h2 {
     background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
@@ -27,7 +23,7 @@ h2 {
 .imagenNovidades:hover {
    height: 650px; width: 500px;
    padding: 20px;
-   background-color: blue;
+
 
 }
 
