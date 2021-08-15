@@ -3,25 +3,17 @@
     padding:0;
  }
 
-.tituloPrincipal {
-    color: black;
-    font-family: "Mulish", sans-serif;
-    font-size: 50px;
-}
+
 
 .contactForm {
     font-family: "Mulish", sans-serif;
-    background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
+    background-image: linear-gradient(to right,aliceblue, lightgray, blue, lightgray, aliceblue);
+    margin-top: 20px;
+    margin-bottom: 50px;
    
     
 }
 
-.contactForm form {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 10px;
-   
-}
 
 .legendForm {
     text-align: center;

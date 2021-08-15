@@ -35,7 +35,7 @@
 .imagenOferta:hover {
    height: 650px; width: 500px;
    padding: 20px;
-   background-color: blue;
+ 
 
 }
 
@@ -74,7 +74,7 @@ h2 {
     background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue );
     width: 100%;
     text-align: center;
-    margin-left: 20px;
+    
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Mulish", sans-serif;
@@ -94,6 +94,22 @@ h2 {
     padding: 10px 24px;
     font-family: "Mulish", sans-serif;
     background-color: lightblue;
+}
+
+
+.flyer {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 340px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.flyerImg {
+    background-color: aliceblue;
+    width: 60%;
 }
 
 

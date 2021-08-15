@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>	
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,11 +54,40 @@
 			<p>Bazar Alphastudio, qualidade e preço justo</p>
 		</div>
 	</header>
-	<section>
+	
 	<!-- Inicio-->
 		<h1 class="tituloPrincipal">Bazar Alphastudio</h1>
-		<img class="imagenInicio" src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Imagen Bazar Alphastudio">
-	</section>
+
+	<!--Carousel-->
+
+	<div id="carouselInicio" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+		  <div class="carousel-item active" data-interval="2000">
+			  <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="Imagen Bazar Alphastudio">
+		  </div>
+		  <div class="carousel-item" data-interval="2000">
+			<img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="Imagen Bazar Alphastudio">
+		  </div>
+		  <div class="carousel-item" data-interval="2000">
+			<img src="https://images.unsplash.com/photo-1490132328392-e6ef54a90dda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="Imagen Bazar Alphastudio">
+		  </div>
+		</div>
+	  </div>
+	 
+
+	  <div class="flyer">
+		<div>
+		<img class="flyerImg" src="Images/flyerpromo1.gif" alt="flyerpromo1">
+		</div>
+		<div>
+		<img class="flyerImg" src="Images/flyerpromo2.gif" alt="flyerpromo1">
+		</div>
+	  </div>
+
+
+	
+	
+	
 	<section>
 		<!-- Ofertas da Semana-->
 		<br>
@@ -90,7 +122,7 @@
     					</table>
 							<p style="color: firebrick; margin: 4px;">Preço: R$ 300</p>
 				<div class="buttonCompraGrid">
-					<button class="buttonCompra">Comprar</button>
+					<button type="button" class="btn btn-primary">Comprar</button>
 				</div>
 				</article>
 				<article    class="ofertas">
@@ -119,7 +151,7 @@
     					</table>
 							<p style="color: firebrick; margin: 4px;">Preço: R$ 100</p>
 				<div class="buttonCompraGrid">
-					<button class="buttonCompra">Comprar</button>
+					<button type="button" class="btn btn-primary">Comprar</button>
 				</div>
 				</article>
 		</section>
@@ -143,6 +175,8 @@
 		<!-- Derechos Autor-->
 		<p class="footerGridP1 footerSocialP">Todos os direitos reservados. Bazar Alphastudio.</p>
 		</div>	
-	</footer>	
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>	
 </body>
 </html>
