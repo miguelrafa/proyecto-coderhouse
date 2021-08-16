@@ -7,15 +7,17 @@
 
 .p1 {
     font-family: "Mulish", sans-serif;
-    margin: 70px 50px 70px;    
+    margin: 70px 50px 30px;    
 }
 
 .h2S {
     background-image: linear-gradient(to right, blue, lightgray, aliceblue );
     font-family: "Mulish", sans-serif;
     text-align: center; 
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     
 }
 
@@ -41,4 +43,51 @@
 .sobreNos {
     background-color: aliceblue;
     width: 40%;
+}
+
+
+.galeriaGrid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 25px;
+    
+
+}
+
+.imageGaleria1 {
+    grid-column-start: 1;
+    
+    
+}
+
+.imageGaleria2 {
+    grid-column-start: 2;
+}
+
+.imageGaleria3 {
+    grid-column-start: 3;
+}
+
+
+
+
+.imageGaleria4 {
+    grid-column-start: 1;
+}
+
+.imageGaleria5 {
+    grid-column-start: 2;
+}
+
+.imageGaleria6 {
+    grid-column-start: 3;
+}
+    
+
+.imageGaleria {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
