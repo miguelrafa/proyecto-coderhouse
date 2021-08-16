@@ -8,12 +8,10 @@
 
 /*Imagen Inicio*/
 
-.imagenInicio {
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+.imagenCarousel {
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
 }
 
 /*Seccion Inicio FLEXBOX*/
@@ -97,20 +95,32 @@ h2 {
 }
 
 
-.flyer {
-    display: flex;
-    height: auto;
+.flyerGrid {
+    display: grid;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
-    margin-left: 340px;
-    margin-right: 100px;
-    margin-top: 60px;
+    grid-column-gap: 200px;
+    
+
 }
 
-.flyerImg {
-    background-color: aliceblue;
-    width: 60%;
+.flyerGrid1 {
+    grid-column-start: 1;
+    
+    
 }
+
+.flyerGrid2 {
+    grid-column-start: 2;
+}
+    
+
+.imageFlyer {
+    width: 300px;
+}
+
+
+
 
 
 /*Logo Whatsapp*/
