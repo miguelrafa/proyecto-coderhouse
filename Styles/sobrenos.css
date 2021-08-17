@@ -7,7 +7,18 @@
 
 .p1 {
     font-family: "Mulish", sans-serif;
-    margin: 70px 50px 30px;    
+    margin: 20px 50px 30px;    
+}
+
+.p1Grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.p1GridText {
+    grid-column-start: 1;
 }
 
 .h2S {
@@ -43,6 +54,17 @@
 .sobreNos {
     background-color: aliceblue;
     width: 40%;
+}
+
+
+.h2Grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2GridText {
+    grid-column-start: 1;
 }
 
 
