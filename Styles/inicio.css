@@ -99,7 +99,7 @@ h2 {
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-column-gap: 200px;
+    grid-column-gap: 100px;
     
 
 }
@@ -116,6 +116,9 @@ h2 {
     
 
 .imageFlyer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
     width: 300px;
 }
 

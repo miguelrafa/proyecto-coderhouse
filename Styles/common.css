@@ -82,6 +82,24 @@ body {
     opacity: 0.8;
 }
 
+
+.headerleftGrid {
+    display: grid;
+    justify-content: start;
+}
+
+.headerLeftGridText {
+    grid-column-start: 1;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
 .headerLeft p {
     margin-top: 5px;
     margin-bottom: 30px;
@@ -100,12 +118,11 @@ body {
     width: 150px;
 }
 
-.tituloPrincipal {
+.tituloPrincipalGridTextInicio {
     color: black;
     font-family: "Mulish", sans-serif;
     font-size: 70px;
     font-weight: bold;
-    text-align: center;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px blue;
 }
@@ -119,6 +136,28 @@ body {
     margin-bottom: 40px;
     text-shadow: 2px 2px 5px blue;
 }
+
+
+.tituloPrincipalGrid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloPrincipalGridText {
+    grid-column-start: 1;
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px blue;
+    
+}
+
+
+
+
 
 /*Footer*/
 
