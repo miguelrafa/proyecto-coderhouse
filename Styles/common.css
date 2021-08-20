@@ -89,7 +89,8 @@ body {
 }
 
 .headerLeftGridText {
-    grid-column-start: 1;
+    
+    justify-content: start;
     margin-top: 5px;
     margin-bottom: 30px;
     color: black;
@@ -100,16 +101,22 @@ body {
     margin-left: 50px;
 }
 
-.headerLeft p {
-    margin-top: 5px;
-    margin-bottom: 30px;
-    color: black;
-    font-family: "Mulish", sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 15px;
-    margin-left: 150px;
+.headerLogoGrid {
+    
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 150px;
 }
+
+.headerleftGridBoot {
+    grid-column-start: 1;
+}
+
+.headerRightGridBoot {
+    grid-column-start: 6;
+}
+
+
 
 .headerRight {
     float: right;
@@ -117,6 +124,10 @@ body {
     margin-right: 100px;
     width: 150px;
 }
+
+
+
+
 
 .tituloPrincipalGridTextInicio {
     color: black;
