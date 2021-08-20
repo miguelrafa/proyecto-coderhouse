@@ -89,7 +89,7 @@ body {
 }
 
 .headerLeftGridText {
-    
+    grid-column-start: 1;
     justify-content: start;
     margin-top: 5px;
     margin-bottom: 30px;
@@ -108,13 +108,7 @@ body {
     width: 150px;
 }
 
-.headerleftGridBoot {
-    grid-column-start: 1;
-}
 
-.headerRightGridBoot {
-    grid-column-start: 6;
-}
 
 
 
