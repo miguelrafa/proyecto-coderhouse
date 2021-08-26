@@ -4,6 +4,103 @@
  }
  
 
+
+/*Responsive common Bazar Alphastudio*/
+
+
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+
+    .flexSectionNovedades {
+        display: flex;
+        height: auto;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 50px;
+        
+    }
+
+
+
+  }
+  
+
+
+  /* Small devices */
+  @media only screen and (min-width: 600px) {
+
+    .flexSectionNovedades {
+        display: flex;
+        height: auto;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 50px;
+        
+    }
+
+
+  }
+  
+
+
+  /* Medium devices */
+  @media only screen and (min-width: 768px) {
+
+    .flexSectionNovedades {
+        display: flex;
+        height: auto;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 50px;
+        
+    }
+
+
+
+  } 
+  
+
+
+  /* Large devices */
+  @media only screen and (min-width: 992px) {
+
+    .flexSectionNovedades {
+        display: flex;
+        height: auto;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+
+
+
+  } 
+
+
+  
+
+  /* Extra large devices */
+  @media only screen and (min-width: 1200px) {
+   
+    .flexSectionNovedades {
+        display: flex;
+        height: auto;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-bottom: 50px;
+        
+    }
+
+
+
+  }
+
+
+
+
+
  h2 {
     background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue );
     width: 100%;
@@ -27,13 +124,18 @@
 
 }
 
+/*
 .flexSectionNovedades {
     display: flex;
     height: auto;
     justify-content: space-around;
+    flex-direction: row;
     margin-bottom: 50px;
     
 }
+*/
+
+
 
 .novedades {
     background-color: aliceblue;
