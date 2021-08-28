@@ -1,0 +1,588 @@
+/*Variables*/
+$my-FontFamily: 'Mulish', sans-serif;
+$color-Background: aliceblue;
+$shadow-Text:  2px 2px 5px blue;
+$my-font-weight: bold;
+$titulo-principal-fontsize: 70px;
+
+* {
+    Margin:0;
+    padding:0;
+ }
+ 
+
+
+/*Responsive common Bazar Alphastudio*/
+
+
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+    .headerRight {
+    float: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 120px;
+    width: 50px;}
+
+    .tituloPrincipalGridTextInicio {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: ($titulo-principal-fontsize)-30;
+        font-weight: $my-font-weight;
+        margin-bottom: 20px;
+        text-shadow: $shadow-Text
+    }
+
+    .tituloPrincipalGrid {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+    }
+
+    .tituloPrincipal2 {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 30px;
+        font-weight: $my-font-weight;
+        text-align: center;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+    }
+
+
+    .tituloPrincipalGridText {
+        grid-column-start: 1;
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 30px;
+        font-weight: $my-font-weight;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+        
+    }
+
+
+/*Menu Principal NAV BAR*/
+
+
+.menuprincipalGrid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+
+
+}
+
+.menuPrincipal {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    font-family: $my-FontFamily;
+    font-weight: $my-font-weight;
+    font-size: 8px;
+}
+
+.menuPrincipal a {
+   
+    text-align: center;
+    width: 70px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: blue;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+  }
+  
+
+
+  /* Small devices */
+  @media only screen and (min-width: 600px) {
+    .headerRight {
+    float: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 120px;
+    width: 50px;}
+
+    .tituloPrincipalGridTextInicio {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: ($titulo-principal-fontsize)-30;
+        font-weight: $my-font-weight;
+        margin-bottom: 20px;
+        text-shadow: $shadow-Text
+    }
+
+    .tituloPrincipalGrid {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+    }
+
+
+    .tituloPrincipal2 {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 30px;
+        font-weight: $my-font-weight;
+        text-align: center;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+    }
+
+
+    .tituloPrincipalGridText {
+        grid-column-start: 1;
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 30px;
+        font-weight: $my-font-weight;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+        
+    }
+
+
+/*Menu Principal NAV BAR*/
+
+
+.menuprincipalGrid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+
+
+}
+
+.menuPrincipal {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    font-family: $my-FontFamily;
+    font-weight: $my-font-weight;
+    font-size: 8px;
+}
+
+.menuPrincipal a {
+   
+    text-align: center;
+    width: 70px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: blue;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+  }
+  
+
+
+  /* Medium devices */
+  @media only screen and (min-width: 768px) {
+    .headerRight {
+    float: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 120px;
+    width: 50px;}
+
+
+    .tituloPrincipalGridTextInicio {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: ($titulo-principal-fontsize)-30;
+        font-weight: $my-font-weight;
+        margin-bottom: 20px;
+        text-shadow: $shadow-Text
+    }
+
+    .tituloPrincipalGrid {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+    }
+
+
+    .tituloPrincipal2 {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 30px;
+        font-weight: $my-font-weight;
+        text-align: center;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+    }
+
+
+    .tituloPrincipalGridText {
+        grid-column-start: 1;
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 30px;
+        font-weight: $my-font-weight;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+        
+    }
+
+
+
+
+/*Menu Principal NAV BAR*/
+
+
+.menuprincipalGrid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+
+
+}
+
+.menuPrincipal {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    font-family: $my-FontFamily;
+    font-weight: $my-font-weight;
+    font-size: 8px;
+}
+
+.menuPrincipal a {
+   
+    text-align: center;
+    width: 70px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: blue;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+  } 
+  
+
+
+  /* Large devices */
+  @media only screen and (min-width: 992px) {
+    .headerRight {
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 150px}
+
+    .tituloPrincipalGridTextInicio {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: ($titulo-principal-fontsize);
+        font-weight: $my-font-weight;
+        margin-bottom: 20px;
+        text-shadow: $shadow-Text
+    }
+
+    .tituloPrincipalGrid {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+    }
+
+
+    .tituloPrincipal2 {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 50px;
+        font-weight: $my-font-weight;
+        text-align: center;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+    }
+
+
+    .tituloPrincipalGridText {
+        grid-column-start: 1;
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 50px;
+        font-weight: $my-font-weight;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+        
+    }
+
+
+
+
+/*Menu Principal NAV BAR*/
+
+
+.menuprincipalGrid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px ;
+
+
+}
+
+.menuPrincipal {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    font-family: $my-FontFamily;
+    font-weight: $my-font-weight;
+    font-size: 16px;
+}
+
+.menuPrincipal a {
+   
+    text-align: center;
+    width: 120px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: blue;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+  } 
+
+
+  
+
+  /* Extra large devices */
+  @media only screen and (min-width: 1200px) {
+    .headerRight {
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 150px}
+
+
+    .tituloPrincipalGridTextInicio {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: ($titulo-principal-fontsize);
+        font-weight: $my-font-weight;
+        margin-bottom: 20px;
+        text-shadow: $shadow-Text
+    }
+
+    .tituloPrincipalGrid {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+    }
+
+
+    .tituloPrincipal2 {
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 50px;
+        font-weight: $my-font-weight;
+        text-align: center;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+    }
+
+
+    .tituloPrincipalGridText {
+        grid-column-start: 1;
+        color: black;
+        font-family: $my-FontFamily;
+        font-size: 50px;
+        font-weight: $my-font-weight;
+        margin-bottom: 40px;
+        text-shadow: $shadow-Text
+        
+    }
+
+
+
+
+
+
+/*Menu Principal NAV BAR*/
+
+
+.menuprincipalGrid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px ;
+
+
+}
+
+.menuPrincipal {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    font-family: $my-FontFamily;
+    font-weight: $my-font-weight;
+    font-size: 16px;
+}
+
+.menuPrincipal a {
+   
+    text-align: center;
+    width: 120px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: blue;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+
+
+  }
+
+
+ 
+
+
+
+
+/*Background Color*/
+
+body {
+    background-color: $color-Background;
+}
+
+/*Menu Principal NAV BAR Imagen*/
+
+
+.navimg {
+    background-image: url(https://images.unsplash.com/photo-1619166719123-471cee9ce91e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    min-height: 70px;
+    width: 100%;
+    
+}
+
+
+
+.menuPrincipal a:hover {
+    color: black;
+}
+
+.menu1 {
+    grid-column-start: 1;
+    opacity: 0.8;
+}
+
+.menu2 {
+    grid-column-start: 2;
+    opacity: 0.8;
+}
+
+.menu3 {
+    grid-column-start: 3;
+    opacity: 0.8;
+}
+
+.menu4 {
+    grid-column-start: 4;
+    opacity: 0.8;
+}
+
+.menu5 {
+    grid-column-start: 5;
+    opacity: 0.8;
+}
+
+
+/*Frase Slogan Bazar Alphastudio*/
+
+.headerleftGrid {
+    display: grid;
+    justify-content: start;
+}
+
+.headerLeftGridText {
+    grid-column-start: 1;
+    justify-content: start;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: $my-FontFamily;
+    font-style: italic;
+    font-weight: $my-font-weight;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/*Footer*/
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+
+.footerSocialGrid1 {
+    grid-column-start: 1;
+}
+
+.footerSocialGrid2 {
+    grid-column-start: 2;
+}
+
+.footer {
+    background-color: blue;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+
+.footerSocial {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 30px;
+}
+
+.footerGridP {
+    display: grid;
+    grid-template-columns: 400px;
+}
+
+.footerGridP1 {
+    grid-column-start: 1;
+}
+
+
+.footerSocialP {
+    font-family: $my-FontFamily;
+    color: white;
+    padding-top: 10px;
+}
