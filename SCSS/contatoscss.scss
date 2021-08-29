@@ -1,3 +1,10 @@
+/*Variables*/
+$my-FontFamily: 'Mulish', sans-serif;
+$color-Background-button: lightblue;
+$width: 100%;
+
+
+
 * {
     Margin:0;
     padding:0;
@@ -6,7 +13,7 @@
 
 
 .contactForm {
-    font-family: "Mulish", sans-serif;
+    font-family: $my-FontFamily;
     background-image: linear-gradient(to right,aliceblue, lightgray, blue, lightgray, aliceblue);
     margin-top: 20px;
     margin-bottom: 50px;
@@ -27,14 +34,14 @@
 }
 
 .inputForm {
-    width: 50%;
+    width: ($width)-50;
     
 }
 
 .buttonContato {
     padding: 10px 24px;
-    font-family: "Mulish", sans-serif;
-    background-color: lightblue;
+    font-family: $my-FontFamily;
+    background-color: $color-Background-button;
 }
 
 .textAreaContacto {
@@ -44,7 +51,7 @@
 }
 
 .imageGaleria {
-    width: 100%;
+    width: $width;
     height: 500px;
     margin-top: 20px;
     margin-bottom: 10px;

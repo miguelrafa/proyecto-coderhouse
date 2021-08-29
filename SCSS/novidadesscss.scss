@@ -1,3 +1,10 @@
+/*Variables*/
+$my-FontFamily: 'Mulish', sans-serif;
+$color-Background: aliceblue;
+
+
+
+
 * {
     Margin:0;
     padding:0;
@@ -108,7 +115,7 @@
     
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: "Mulish", sans-serif;
+    font-family: $my-FontFamily;
     text-shadow: 2px 2px 5px blue;
   
 }
@@ -124,20 +131,9 @@
 
 }
 
-/*
-.flexSectionNovedades {
-    display: flex;
-    height: auto;
-    justify-content: space-around;
-    flex-direction: row;
-    margin-bottom: 50px;
-    
-}
-*/
-
 
 
 .novedades {
-    background-color: aliceblue;
+    background-color: $color-Background;
     width: 40%;
 }

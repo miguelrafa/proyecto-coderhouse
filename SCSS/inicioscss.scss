@@ -1,3 +1,8 @@
+/*Variables*/
+$my-FontFamily: 'Mulish', sans-serif;
+$color-Background: aliceblue;
+
+
 * {
     Margin:0;
     padding:0;
@@ -39,11 +44,11 @@
 
 
 .ofertas {
-    background-color: aliceblue;
+    background-color: $color-Background;
     margin: auto;
     width: 40%;
     padding: 10px;
-    font-family: "Mulish", sans-serif;
+    font-family: $my-FontFamily;
 }
 
 table, th, td {
@@ -74,14 +79,14 @@ h2 {
     
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: "Mulish", sans-serif;
+    font-family: $my-FontFamily;
     text-shadow: 2px 2px 5px blue;
   
 }
 
 .h2S {
     background-image: linear-gradient(to right, blue, lightgray, aliceblue );
-    font-family: "Mulish", sans-serif;
+    font-family: $my-FontFamily;
     text-align: center; 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -110,7 +115,7 @@ h2 {
 .buttonCompra {
     grid-column-start: 3;
     padding: 10px 24px;
-    font-family: "Mulish", sans-serif;
+    font-family: $my-FontFamily;
     background-color: lightblue;
 }
 

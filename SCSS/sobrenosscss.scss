@@ -1,6 +1,6 @@
 /*Variables*/
 $my-FontFamily: 'Mulish', sans-serif;
-
+$color-Background: aliceblue;
 
 
 
@@ -61,7 +61,7 @@ $my-FontFamily: 'Mulish', sans-serif;
 }
 
 .sobreNos {
-    background-color: aliceblue;
+    background-color: $color-Background;
     width: 40%;
 }
 

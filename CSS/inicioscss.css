@@ -1,3 +1,4 @@
+/*Variables*/
 * {
   Margin: 0;
   padding: 0; }
@@ -18,17 +19,8 @@
   width: 350px;
   height: 500px;
   margin-left: auto;
-  margin-right: auto;
-  /*transition: all 1s;*/ }
+  margin-right: auto; }
 
-/*
-.imagenOferta:hover {
-   height: 650px; width: 500px;
-   padding: 20px;
- 
-
-}
-*/
 .ofertas {
   background-color: aliceblue;
   margin: auto;
