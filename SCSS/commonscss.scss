@@ -546,7 +546,6 @@ body {
     background-image: url(https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80);
     /*background-image: url(https://images.unsplash.com/photo-1606429448471-e61b48c8c9f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);*/
     /*background-image: url(https://images.unsplash.com/photo-1579975722497-72921d514384?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);*/
-
 }
 
 
@@ -559,6 +558,7 @@ body {
     text-align: center;
     text-decoration: none;
     margin: 20px 20px;
+    text-shadow: 4px 4px 9px black;
   }
   
   
@@ -571,32 +571,37 @@ body {
   .fa-facebook {
     background: #3B5998;
     color: white;
+    text-shadow: 4px 4px 9px black;
   }
   
   /* Twitter */
   .fa-twitter {
     background: #55ACEE;
     color: white;
+    text-shadow: 4px 4px 9px black;
   }
 
   /*Instagram*/
   .fa-instagram {
     background: red;
     color: white;
+    text-shadow: 4px 4px 9px black;
   }
 
   /*Snapchat*/
   .fa-snapchat-ghost {
     background: #fffc00;
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 4px 4px 9px black;
   }
 
 
 .footer-basic {
     margin-top: 50px;
     padding:40px 0;
-    color: white;
+    color: black;
+    text-shadow: $shadow-Text
+    
   }
   
   .footer-basic ul {
@@ -639,7 +644,8 @@ body {
     margin-top:15px;
     font-weight: $my-font-weight;
     text-align:center;
-    font-size: 18px;
-    color: black;
+    font-size: 16px;
+    color: white;
+    text-shadow: 4px 4px 9px black;
     margin-bottom:0;
   }
