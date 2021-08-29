@@ -1,0 +1,53 @@
+* {
+  Margin: 0;
+  padding: 0; }
+
+/*Seccion Productos FlexBox*/
+.imagenOferta {
+  width: 350px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.ofertas {
+  background-color: aliceblue;
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  font-family: "Mulish", sans-serif; }
+
+table, th, td {
+  padding: 3px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  text-decoration: none; }
+
+th {
+  background-color: blue;
+  color: white; }
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px blue; }
+
+h2 {
+  background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  text-shadow: 2px 2px 5px blue; }
+
+/*Boton Compra GRID*/
+.buttonCompraGrid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%; }
+
+.buttonCompra {
+  grid-column-start: 3;
+  padding: 10px 24px;
+  font-family: "Mulish", sans-serif;
+  background-color: lightblue; }

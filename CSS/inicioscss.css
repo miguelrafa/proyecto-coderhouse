@@ -1,0 +1,115 @@
+* {
+  Margin: 0;
+  padding: 0; }
+
+/*Imagen Inicio*/
+.imagenCarousel {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+/*Seccion Inicio FLEXBOX*/
+.flexSectionInicio {
+  display: flex;
+  height: auto;
+  align-items: baseline; }
+
+/*Ofertas de la semana*/
+.imagenOferta {
+  width: 350px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  /*transition: all 1s;*/ }
+
+/*
+.imagenOferta:hover {
+   height: 650px; width: 500px;
+   padding: 20px;
+ 
+
+}
+*/
+.ofertas {
+  background-color: aliceblue;
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  font-family: "Mulish", sans-serif; }
+
+table, th, td {
+  padding: 3px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  text-decoration: none; }
+
+th {
+  background-color: blue;
+  color: white; }
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px blue; }
+
+h2 {
+  background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Mulish", sans-serif;
+  text-shadow: 2px 2px 5px blue; }
+
+.h2S {
+  background-image: linear-gradient(to right, blue, lightgray, aliceblue);
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+.h2Grid {
+  display: grid;
+  align-items: center;
+  justify-content: center; }
+
+.h2GridText {
+  grid-column-start: 1; }
+
+/*Boton Compra GRID*/
+.buttonCompraGrid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%; }
+
+.buttonCompra {
+  grid-column-start: 3;
+  padding: 10px 24px;
+  font-family: "Mulish", sans-serif;
+  background-color: lightblue; }
+
+.flyerGrid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-column-gap: 100px; }
+
+.flyerGrid1 {
+  grid-column-start: 1; }
+
+.flyerGrid2 {
+  grid-column-start: 2; }
+
+.imageFlyer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  width: 300px; }
+
+/*Logo Whatsapp*/
+.logoWhatsapp {
+  width: 6%;
+  position: fixed;
+  right: 10px;
+  bottom: 10px; }

@@ -540,49 +540,106 @@ body {
 
 
 
-
 /*Footer*/
 
-.footerGrid {
-    display: grid;
-    grid-template-columns: 50px 50px;
-}
+.footerImg {
+    background-image: url(https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80);
+    /*background-image: url(https://images.unsplash.com/photo-1606429448471-e61b48c8c9f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);*/
+    /*background-image: url(https://images.unsplash.com/photo-1579975722497-72921d514384?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);*/
 
-.footerSocialGrid1 {
-    grid-column-start: 1;
-}
-
-.footerSocialGrid2 {
-    grid-column-start: 2;
-}
-
-.footer {
-    background-color: blue;
-    padding-top: 15px;
-    padding-left: 30px;
-    padding-bottom: 15px;
-    margin-top: 30px;
-}
-
-.footerSocial {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 30px;
-}
-
-.footerGridP {
-    display: grid;
-    grid-template-columns: 400px;
-}
-
-.footerGridP1 {
-    grid-column-start: 1;
 }
 
 
-.footerSocialP {
-    font-family: $my-FontFamily;
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 20px;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+   
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
     color: white;
-    padding-top: 10px;
-}
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /*Instagram*/
+  .fa-instagram {
+    background: red;
+    color: white;
+  }
+
+  /*Snapchat*/
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+
+.footer-basic {
+    margin-top: 50px;
+    padding:40px 0;
+    color: white;
+  }
+  
+  .footer-basic ul {
+    font-family: $my-FontFamily;
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-weight: bold;
+    font-size:20px;
+    line-height:1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    font-family: $my-FontFamily;
+    font-weight: $my-font-weight;
+    color:inherit;
+    text-decoration:none;
+    
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    font-family: $my-FontFamily;
+    font-weight: $my-font-weight;
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+   
+  .footer-basic .copyright {
+    font-family: $my-FontFamily;
+    margin-top:15px;
+    font-weight: $my-font-weight;
+    text-align:center;
+    font-size: 18px;
+    color: black;
+    margin-bottom:0;
+  }

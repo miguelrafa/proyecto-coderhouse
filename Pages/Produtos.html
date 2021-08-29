@@ -8,6 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<!--Iconos Social Networks-->
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<!--Animations-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	
@@ -24,8 +28,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap" rel="stylesheet">
 
 	<!--Link al archivo CSS-->
-	<link rel="stylesheet" href="../Styles/common.css">
-	<link rel="stylesheet" href="../Styles/produtos.css">
+	<link rel="stylesheet" href="../CSS/commonscss.css">
+	<link rel="stylesheet" href="../CSS/produtosscss.css">
 
 </head>
 <body>
@@ -67,7 +71,7 @@
 			<h2>OFERTAS  -  MULHER  -  HOMEM  -  KIDS</h2>
 		</div>
 
-	<!-- Productos-->
+<!-- Productos-->
 
 <div class="container font-weight-bold">
 
@@ -75,9 +79,12 @@
 			
 	<div    class="col-sm">
 		
-			
-				<h3>Oferta 1</h3>
+					<div class="container">
+					<h3>Oferta 1</h3>
+					</div>
+					<div class="container imagenOferta">
 					<img class="imagenOferta" src="https://images.unsplash.com/photo-1467043237213-65f2da53396f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Oferta Producto 1">			
+					</div>
 					<br>
 					<br>	
 					<table>
@@ -109,30 +116,33 @@
 	
 	<div    class="col-sm">
 			
-				
+					<div class="container">
 					<h3>Oferta 2</h3>
-				
-					<img class="imagenOferta" src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=349&q=80" alt="Oferta Producto 2">
+					</div>
+					<div class="container imagenOferta">				
+					<img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=349&q=80" alt="Oferta Producto 2">
+					</div>
 					<br>
-					<br>	
-					<table>
-							<tr>
-								<th> Nome do Produto</th>
-								<th> Data de Lançamento</th>
-								<th> Descripção do Produto</th>
-							</tr>
-							<tr>
-								<td>Camisa feminina</td>
-								<td>10/04/2021</td>
-								<td>
-									<ul class="colorol">
-										<dl>Camisa feminina ideal para usar na praia</dl>
-										<dl>Confeccionada com algodão em trico</dl>
-										<dl>Tamanho unico</dl>
-									</ul>
-								</td>
-							</tr>    
+					<br>
+						<table>
+								<tr>
+									<th> Nome do Produto</th>
+									<th> Data de Lançamento</th>
+									<th> Descripção do Produto</th>
+								</tr>
+								<tr>
+									<td>Camisa feminina</td>
+									<td>10/04/2021</td>
+									<td>
+										<ul class="colorol">
+											<dl>Camisa feminina ideal para usar na praia</dl>
+											<dl>Confeccionada com algodão em trico</dl>
+											<dl>Tamanho unico</dl>
+										</ul>
+									</td>
+								</tr>    
 						</table>
+						
 							<p style="color: firebrick; margin: 4px;">Preço: R$ 100</p>
 					<div class="buttonCompraGrid">
 						<button type="button" class="btn btn-primary d-flex justify-content-center d-md-table mx-auto font-weight-bold">Comprar</button>
@@ -147,17 +157,26 @@
 </div>
 <br>
 
-	<footer class="footer">
-		<div class="footerGrid">
-		<!-- Redes Sociales-->
-		<img  class="footerSocialGrid1 footerSocial" src="https://cdns.iconmonstr.com/wp-content/assets/preview/2016/240/iconmonstr-instagram-11.png" alt="Instagram Bazar Alphastudio">
-		<img class="footerSocialGrid2 footerSocial" src="https://cdns.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-facebook-5.png" alt="Facebook Bazar Alphastudio">
-		</div>
-		<div class="footerGridP">
-		<!-- Derechos Autor-->
-		<p class="footerGridP1 footerSocialP">Todos os direitos reservados. Bazar Alphastudio.</p>
-		</div>	
-	</footer>	
+	  <!--Footer-->
+        
+    
+	  <div class="footer-basic footerImg">
+		<footer>
+			<div class="social"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-snapchat-ghost"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a>
+			</div>
+			<ul >
+				<li class="list-inline-item"><a href="../index.html">Inicio</a></li>
+				<li class="list-inline-item"><a href="../Pages/SobreNos.html">Sobre Nos</a></li>
+				<li class="list-inline-item"><a href="../Pages/Produtos.html">Produtos</a></li>
+				<li class="list-inline-item"><a href="../Pages/Novidades.html">Novidades</a></li>
+				<li class="list-inline-item"><a href="../Pages/Contato.html">Contato</a></li>
+			</ul>
+			<p class="copyright">Bazar Alphastudio ©</p>
+		</footer>
+	</div>
+	
+	
+
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
