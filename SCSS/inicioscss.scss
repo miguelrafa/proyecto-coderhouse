@@ -33,7 +33,7 @@ $color-Background: aliceblue;
 
 
 .imagenOferta {
-    width: 2000px; 
+    width: 350px; 
     height: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -62,10 +62,6 @@ table, th, td {
     border-collapse: collapse;
     text-align: center;
     text-decoration: none;
-    overflow: hidden
-    
-    
-    
 }
 
 th {
@@ -81,15 +77,13 @@ h3 {
 }
 
 h2 {
-    background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue );
+    background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
     width: 100%;
-    text-align: center;
-    
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
     font-family: $my-FontFamily;
     text-shadow: 2px 2px 5px blue;
-  
 }
 
 .h2S {
@@ -160,8 +154,7 @@ h2 {
 
 .imagePromoVerano {
    
-    margin-left: auto;
-    margin-right: auto;
+   margin-bottom: 40px;
 }
 
 
