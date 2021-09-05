@@ -6,7 +6,8 @@
 /*Imagen Inicio*/
 .imagenCarousel {
   margin-top: 30px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  width: 100%; }
 
 /*Seccion Inicio FLEXBOX*/
 .flexSectionInicio {
@@ -16,7 +17,7 @@
 
 /*Ofertas de la semana*/
 .imagenOferta {
-  width: 350px;
+  width: 2000px;
   height: 500px;
   margin-left: auto;
   margin-right: auto; }
@@ -33,7 +34,8 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  overflow: hidden; }
 
 th {
   background-color: blue;
@@ -48,7 +50,7 @@ h2 {
   background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
   width: 100%;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
   font-family: "Mulish", sans-serif;
   text-shadow: 2px 2px 5px blue; }
@@ -85,7 +87,8 @@ h2 {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-column-gap: 100px; }
+  grid-column-gap: 100px;
+  width: 300px; }
 
 .flyerGrid1 {
   grid-column-start: 1; }
@@ -93,11 +96,18 @@ h2 {
 .flyerGrid2 {
   grid-column-start: 2; }
 
+.flyerGrid3 {
+  grid-column-start: 2; }
+
 .imageFlyer {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 100px;
+  margin-left: 50px;
   width: 300px; }
+
+.imagePromoVerano {
+  margin-left: auto;
+  margin-right: auto; }
 
 /*Logo Whatsapp*/
 .logoWhatsapp {

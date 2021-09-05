@@ -56,7 +56,7 @@
     width: 70px;
     margin-left: 2px;
     margin-right: 2px;
-    background-color: blue;
+    background-color: #1270eb;
     text-decoration: none;
     padding: 8px 16px;
     color: white;
@@ -114,7 +114,7 @@
     width: 70px;
     margin-left: 2px;
     margin-right: 2px;
-    background-color: blue;
+    background-color: #1270eb;
     text-decoration: none;
     padding: 8px 16px;
     color: white;
@@ -172,7 +172,7 @@
     width: 70px;
     margin-left: 2px;
     margin-right: 2px;
-    background-color: blue;
+    background-color: #1270eb;
     text-decoration: none;
     padding: 8px 16px;
     color: white;
@@ -229,7 +229,7 @@
     width: 120px;
     margin-left: 2px;
     margin-right: 2px;
-    background-color: blue;
+    background-color: #1270eb;
     text-decoration: none;
     padding: 8px 16px;
     color: white;
@@ -286,7 +286,7 @@
     width: 120px;
     margin-left: 2px;
     margin-right: 2px;
-    background-color: blue;
+    background-color: #1270eb;
     text-decoration: none;
     padding: 8px 16px;
     color: white;
@@ -298,7 +298,8 @@ body {
 
 /*Menu Principal NAV BAR Imagen*/
 .navimg {
-  background-image: url(https://images.unsplash.com/photo-1619166719123-471cee9ce91e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  /*background-image: url(https://images.unsplash.com/photo-1619166719123-471cee9ce91e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);*/
+  background-image: url(https://images.unsplash.com/photo-1531265726475-52ad60219627?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80);
   min-height: 70px;
   width: 100%; }
 
