@@ -11,7 +11,9 @@
     height: auto;
     justify-content: space-around;
     flex-direction: column;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px; } }
 
 /* Small devices */
 @media only screen and (min-width: 600px) {
@@ -20,7 +22,9 @@
     height: auto;
     justify-content: space-around;
     flex-direction: column;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px; } }
 
 /* Medium devices */
 @media only screen and (min-width: 768px) {
@@ -29,7 +33,9 @@
     height: auto;
     justify-content: space-around;
     flex-direction: column;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px; } }
 
 /* Large devices */
 @media only screen and (min-width: 992px) {
@@ -38,7 +44,9 @@
     height: auto;
     justify-content: space-around;
     flex-direction: row;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px; } }
 
 /* Extra large devices */
 @media only screen and (min-width: 1200px) {
@@ -47,10 +55,12 @@
     height: auto;
     justify-content: space-around;
     flex-direction: row;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px; } }
 
 h2 {
-  background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
+  background-image: linear-gradient(to right, #006eff, lightgray, aliceblue, lightgray, #006eff);
   width: 100%;
   text-align: center;
   margin-top: 20px;
@@ -71,3 +81,14 @@ h2 {
 .novedades {
   background-color: aliceblue;
   width: 40%; }
+
+.card1 {
+  background-image: #78aff8;
+  /*background-image: linear-gradient(to right, rgb(149, 193, 252), lightgray, aliceblue, lightgray, rgb(149, 193, 252));*/
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  text-shadow: 1px 1px 1px #00a2ff;
+  border-style: none; }

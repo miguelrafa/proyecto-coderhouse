@@ -16,7 +16,7 @@
   grid-column-start: 1; }
 
 .h2S {
-  background-image: linear-gradient(to right, blue, lightgray, aliceblue);
+  background-image: linear-gradient(to right, #006eff, lightgray, aliceblue);
   font-family: "Mulish", sans-serif;
   text-align: center;
   padding-top: 10px;

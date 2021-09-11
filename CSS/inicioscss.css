@@ -46,7 +46,7 @@ h3 {
   text-shadow: 2px 2px 5px blue; }
 
 h2 {
-  background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
+  background-image: linear-gradient(to right, #006eff, lightgray, aliceblue, lightgray, #006eff);
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -55,7 +55,7 @@ h2 {
   text-shadow: 2px 2px 5px blue; }
 
 .h2S {
-  background-image: linear-gradient(to right, blue, lightgray, aliceblue);
+  background-image: linear-gradient(to right, #006eff, lightgray, aliceblue);
   font-family: "Mulish", sans-serif;
   text-align: center;
   padding-top: 10px;
@@ -113,3 +113,15 @@ h2 {
   position: fixed;
   right: 10px;
   bottom: 10px; }
+
+.card1 {
+  background-image: linear-gradient(to right, #006eff, lightgray, aliceblue, lightgray, #006eff);
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  text-shadow: 2px 2px 5px blue;
+  border-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px; }

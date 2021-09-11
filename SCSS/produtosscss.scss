@@ -54,7 +54,7 @@ h3 {
 }
 
 h2 {
-    background-image: linear-gradient(to right, blue, lightgray, aliceblue, lightgray, blue);
+    background-image: linear-gradient(to right, rgb(0, 110, 255), lightgray, aliceblue, lightgray, rgb(0, 110, 255));
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -62,6 +62,21 @@ h2 {
     font-family: $my-FontFamily;
     text-shadow: 2px 2px 5px blue;
 }
+
+.card1 {
+    background-image: linear-gradient(to right, rgb(0, 110, 255), lightgray, aliceblue, lightgray, rgb(0, 110, 255));
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: $my-FontFamily;
+    text-shadow: 2px 2px 5px blue;
+    border-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 
 /*Boton Compra GRID*/
 

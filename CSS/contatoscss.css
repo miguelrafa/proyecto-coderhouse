@@ -5,7 +5,7 @@
 
 .contactForm {
   font-family: "Mulish", sans-serif;
-  background-image: linear-gradient(to right, aliceblue, lightgray, blue, lightgray, aliceblue);
+  background-image: linear-gradient(to right, aliceblue, lightgray, #006eff, lightgray, aliceblue);
   margin-top: 20px;
   margin-bottom: 50px; }
 
